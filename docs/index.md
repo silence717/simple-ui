@@ -1,1 +1,1 @@
-## Hello web-components!
+## Hello simple!
