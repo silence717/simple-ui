@@ -1,17 +1,21 @@
 {
-  "private": true,
   "name": "simple-ui",
+  "private": true,
   "version": "0.0.0",
   "scripts": {
+    "bootstrap": "lerna bootstrap",
     "start": "dumi dev",
     "docs:build": "dumi build",
     "docs:deploy": "gh-pages -d docs-dist",
-    "build": "father-build",
+    "clean": "lerna clean -y",
+    "build": "dumi build",
+    "compile": "father-build",
     "deploy": "npm run docs:build && npm run docs:deploy",
     "release": "npm run build && npm publish",
     "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
     "test": "umi-test",
-    "test:coverage": "umi-test --coverage"
+    "test:coverage": "umi-test --coverage",
+    "publish": "npm run compile && lerna publish"
   },
   "main": "dist/index.js",
   "module": "dist/index.esm.js",

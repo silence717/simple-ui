@@ -1,0 +1,29 @@
+{
+  "name": "@simple-ui/button",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "fang.yang <yangfang2028@126.com>",
+  "homepage": "https://github.com/silence717/web-components#readme",
+  "license": "ISC",
+  "main": "lib/Button.js",
+  "scripts": {
+    "prebuild": "rimraf lib",
+    "build": "tsc",
+    "dev": "yarn build -w",
+    "prepublishOnly": "yarn build"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silence717/web-components.git"
+  },
+  "bugs": {
+    "url": "https://github.com/silence717/web-components/issues"
+  }
+}
