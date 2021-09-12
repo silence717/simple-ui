@@ -1,3 +1,7 @@
-## Hello simple-ui
+---
+title: Getting Started
+---
 
-React + typescript
+### Hello simple-ui
+
+React + typescript + tailwindcss ui component

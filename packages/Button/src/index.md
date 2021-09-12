@@ -1,6 +1,9 @@
-## Button
+---
+title: Button
+path: /button
+---
 
-Demo:
+## Button
 
 ### 何时使用
 
@@ -18,7 +21,3 @@ Demo:
 | type     | 设置按钮类型，可选值为 `primary` `dashed` `link` `normal` 或者不设 | string          | `normal`  |
 | block    | 将按钮宽度调整为其父宽度的选项                                     | boolean         | `false`   |
 | onClick  | 点击触发的回调                                                     | (event) => void | -         |
-
-### Button.Group
-
-跟 `Button` 组件的一致，如果在 `Button.Group` 上设置了，则会覆盖掉子元素上设置的参数

@@ -4,16 +4,16 @@ import classnames from 'classnames';
 const prefixCls = 'xm';
 
 interface ButtonProps {
-  type: string;
-  size: string;
-  href: string;
-  block: string;
-  loading: boolean;
-  target: string;
+  type?: string;
+  size?: string;
+  href?: string;
+  block?: string;
+  loading?: boolean;
+  target?: string;
   disabled?: boolean;
-  htmlType: string;
-  className: string;
-  children: ReactChildren;
+  htmlType?: string;
+  className?: string;
+  children: ReactChildren | string;
 }
 
 function Button(props: ButtonProps) {

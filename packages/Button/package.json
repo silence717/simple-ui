@@ -25,5 +25,9 @@
   },
   "bugs": {
     "url": "https://github.com/silence717/web-components/issues"
+  },
+  "keywords": [],
+  "publishConfig": {
+    "access": "public"
   }
 }

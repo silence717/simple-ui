@@ -1,4 +1,4 @@
-# web-components
+# simple-ui
 
 ## Getting Started
 
